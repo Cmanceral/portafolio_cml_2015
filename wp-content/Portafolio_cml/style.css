@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700,900);
+
+#wrapper{
+	width:75%;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+h1{
+	border: 7px solid #000000;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 170%;
+	line-height: 130%;
+	width:28%;
+	padding:8px;
+	margin-left: 69%;
+}
+
+nav{
+	border-bottom: 4px solid #000000;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 120%;
+	margin: 15px 0 5px 0;
+	height: 50px;
+	padding-bottom: 10px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 20px 0px;
+	margin-right: 20%;
+	margin-left: 5%;
+
+
+}
+
+.nomargin{
+	margin-right: 0% !important;
+}
+
+
+
+.gallery{
+	margin-top: 0%;
+}
+
+.gallery li{
+	width:30%;
+	display: inline-block;
+	margin-right: 4.1%;
+	margin-top: 4.1%;
+}
+
+.gallery li figure{
+	position: relative;
+}
+
+.gallery li figure figcaption{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 95%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 95%;
+	background: #000000;
+	color: #ffffff;
+	padding: 20px;
+	height:62%;
+	left:0;
+	top: 0;
+	position: absolute;
+	opacity: 0;
+	transition: transform 0.3s, opacity 0.5s;
+				-webkit-transition: -webkit-transform 0.3s, opacity 0.5s;
+				-moz-transition: -moz-transform 0.3s, opacity 0.5s;
+				-ms-transition: -ms-transform 0.3s, opacity 0.5s;
+}
+.gallery li figure figcaption p{
+	padding-bottom: 15px;
+	border-bottom: 3px solid #ffffff;
+}
+
+ul.gallery li:hover figcaption{
+	cursor: pointer;
+	opacity: .5;
+}
+
+
+.gallery li figure figcaption p{
+	border-bottom: 2px solid #ffffff;
+	
+}
+
+.gallery li figure h3{
+	border-top: 4px solid #000000;
+	padding: 15px 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 135%;
+	text-transform: uppercase;
+	margin: 20px 0 20px 0;
+
+}
+
+footer{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 90%;
+	margin: 20px 0 20px 0;
+	height: 50px;
+	position: relative;
+}
+
+footer span, section{
+	display: inline-block;
+	margin-top: 13px;
+}
+
+footer span{
+	margin: 0 30% 0 40%;
+}
+
+/*///////////////////////// ARCHIVE ////////////////////////////*/
+
+.h3_archive{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 120%;
+	text-transform: uppercase;
+	margin: 0 !important;
+	padding: 10px 0 !important;
+
+}
+
+.figcaption_archive{
+	height:81% !important;
+}
+
+/*///////////////////////// SINGLE ////////////////////////////*/
+
+h2{
+	display: inline-block;
+	border: 7px solid #000000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 280%;
+	text-transform: uppercase;
+	padding: 30px 90px 30px 30px;
+	margin: 20px 0px 20px 0px;
+}
+
+.ft-image{
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.ft-image p{
+	border-bottom: 4px solid #000000;
+	text-align: left;
+	padding: 20px 0px 20px 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 95%;
+	line-height: 130%;
+}
